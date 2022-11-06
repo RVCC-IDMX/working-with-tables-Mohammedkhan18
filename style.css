@@ -1,3 +1,112 @@
 body {
-  background-color: aliceblue;
+  background-color: #F0A336;
+  font-family: 'Raleway';
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.back-video {
+  right: 0;
+  bottom: 39rem;
+  z-index: -1;
+  position: absolute;
+}
+.hero h1 {
+  text-align: center;
+  font-family: Poor Story;
+  font-size: 3rem;
+  font-weight: bolder;
+  color: white;
+  justify-content: center;
+}
+
+figcaption {
+    align-items: center;
+    padding-left: 70px;
+    padding-bottom: 40px;
+    font-size: 1.3rem;
+    margin-left: 1rem;
+    color: blue;
+}
+
+.img2 {
+    padding-left: 23rem;
+    padding-bottom: 50px;
+}
+
+.img2 p {
+  padding-left: 19%;
+  padding-top: 0px;
+  font-size: 65%;
+}
+.img1 {
+  padding-left: 31rem;
+}
+
+
+
+.table {
+  border: 1px solid green;
+  border-collapse: collapse;
+  padding:5px;
+  background-color: #3FF6FF;
+}
+.table th {
+  border: 5px dotted green;
+  padding:5px;
+  background-color: #8B8AFF;
+  color: black;
+}
+.table td {
+  border: 5px dotted green;
+  padding: 10px;
+  text-align: center;
+}
+
+
+ h2 {
+  padding: 10px;
+  font-family: Poor Story;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  text-align: center;
+  color: blue;
+}
+
+
+.source {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  font-size: 70%;
+}
+
+
+figure {
+  border: 5px dotted blue;
+  padding-right: 10px;
+  padding-left: 10px;
+
+}
+
+
+footer {
+  text-align: center;
+  padding: 25px;
+  background-color: #3FF6FF;
+}
+
+
+@media (min-aspect-ratio: 16/9) {
+  .back-video {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .back-video {
+    width: auto;
+    height: 100%;
+  }
 }
